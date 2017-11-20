@@ -24,7 +24,7 @@ class App < Sinatra::Base
       nums1 = params[:num1]
     # nums2 = params[:num2]
     # "#{nums1*nums2}"
-    
+
   end
 
 end
