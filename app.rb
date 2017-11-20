@@ -15,4 +15,9 @@ class App < Sinatra::Base
 
   # Code your final two routes here:
 
+  get "goodbye/:name" do
+    uname = params[:name]
+    "goodbye #{uname}"
+  end
+
 end
